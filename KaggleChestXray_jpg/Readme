@@ -1,4 +1,12 @@
 Initiall used small DATA set: From Kaggle-PaulTimothy
+-----------------------------------------------------
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("paultimothymooney/chest-xray-pneumonia")
+
+print("Path to dataset files:", path)
+----------------------------------------------------
 saved in:
 /home/martinworkmbcet/.cache/kagglehub/datasets/paultimothymooney/chest-xray-pneumonia/versions/2/chest_xray
 
