@@ -1,1 +1,38 @@
+Initiall used small DATA set:
 
+martinworkmbcet@t1v-n-29745ea1-w-0:~/Kaggle/chest_xray$ tree -d
+.
+├── test
+│   ├── CNV
+│   ├── DME
+│   ├── DRUSEN
+│   └── NORMAL
+├── train
+│   ├── CNV
+│   ├── DME
+│   ├── DRUSEN
+│   └── NORMAL
+└── val
+
+12 directories
+
+-------------------------------------------------------
+
+Finally used OCT2017 DATA set
+ Total .jpeg = *.jpeg =   84484   
+ Size ~ 0.5MB or less
+
+martinworkmbcet@t1v-n-29745ea1-w-0:~/Kaggle/OCT2017$ tree -d
+.
+├── test
+│   ├── CNV
+│   ├── DME
+│   ├── DRUSEN
+│   └── NORMAL
+└── train
+    ├── CNV
+    ├── DME
+    ├── DRUSEN
+    └── NORMAL
+
+11 directories
