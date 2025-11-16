@@ -1,25 +1,26 @@
-Initiall used small DATA set:
+Initiall used small DATA set: From Kaggle-PaulTimothy
+saved in:
+/home/martinworkmbcet/.cache/kagglehub/datasets/paultimothymooney/chest-xray-pneumonia/versions/2/chest_xray
 
-martinworkmbcet@t1v-n-29745ea1-w-0:~/Kaggle/chest_xray$ tree -d
-.
-├── test
-│   ├── CNV
-│   ├── DME
-│   ├── DRUSEN
-│   └── NORMAL
-├── train
-│   ├── CNV
-│   ├── DME
-│   ├── DRUSEN
-│   └── NORMAL
-└── val
+2.4M    ./chest_xray/val/NORMAL
+648K    ./chest_xray/val/PNEUMONIA
+3.0M    ./chest_xray/val
 
-12 directories
+785M    ./chest_xray/train/NORMAL
+327M    ./chest_xray/train/PNEUMONIA
+1.1G    ./chest_xray/train
 
+48M     ./chest_xray/test/NORMAL
+29M     ./chest_xray/test/PNEUMONIA
+77M     ./chest_xray/test
+1.2G    ./chest_xray
+2.4G    .
+
+11712 JPG in total
 -------------------------------------------------------
 
 Finally used OCT2017 DATA set
- Total .jpeg = *.jpeg =   84484   
+ Total .jpeg = *.jpeg =   84484  JPEG in Total
  Size ~ 0.5MB or less
 
 martinworkmbcet@t1v-n-29745ea1-w-0:~/Kaggle/OCT2017$ tree -d
@@ -34,5 +35,16 @@ martinworkmbcet@t1v-n-29745ea1-w-0:~/Kaggle/OCT2017$ tree -d
     ├── DME
     ├── DRUSEN
     └── NORMAL
+833M    ./train/DME
+515M    ./train/DRUSEN
+2.6G    ./train/CNV
+1.7G    ./train/NORMAL
+5.6G    ./train
+14M     ./test/DME
+12M     ./test/DRUSEN
+14M     ./test/CNV
+10M     ./test/NORMAL
+49M     ./test
+5.6G    .
 
 11 directories
