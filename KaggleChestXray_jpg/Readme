@@ -1,5 +1,8 @@
 Initiall used small DATA set: From Kaggle-PaulTimothy
 -----------------------------------------------------
+pip install kaggle
+pip install kagglehub
+-----------------------------------------------------
 import kagglehub
 
 # Download latest version
